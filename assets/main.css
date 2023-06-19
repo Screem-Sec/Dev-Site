@@ -1,9 +1,12 @@
 /* Variables */
-:root
+:root {
+  
+}
 
 /* Reset content */
 body, ul, li, a {
   margin: 0;
+  padding: 0;
   list-style: none;
   text-decoration: none;
 }
