@@ -28,7 +28,9 @@ body {
 /* Header */
 header {
   background-color: var(--7-op);
-  border: 1px solid var(--0-op);
+  border-bottom: 1px solid var(--0-op);
+  line-height: 4rem;
+  font-size: 1.2rem;
 }
 
 .site-nav {
@@ -40,6 +42,10 @@ header {
   flex-grow: 1;
 }
 
-header > nav {
+.nav-menu {
   flex-grow: 8;
+}
+
+.nav-end {
+  flex-grow: 1;
 }
