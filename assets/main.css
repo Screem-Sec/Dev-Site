@@ -2,11 +2,8 @@
 :root
 
 /* Reset content */
-body {
+body, ul, li, a {
   margin: 0;
-}
-
-ul, li, a {
   list-style: none;
   text-decoration: none;
 }
