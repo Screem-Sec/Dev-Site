@@ -1,0 +1,12 @@
+/* Variables */
+:root
+
+/* Reset content */
+body {
+  margin: 0;
+}
+
+ul, li, a {
+  list-style: none;
+  text-decoration: none;
+}
