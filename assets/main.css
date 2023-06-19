@@ -10,6 +10,9 @@
   --14-op: rgba(18,18,18,0.86);
   --15-op: rgba(18,18,18,0.85);
   --16-op: rgba(18,18,18,0.84);
+  --primary-text-color: rgba(255,255,255,1);
+  --secondary-text-color: rgba(255,255,255,0.93);
+  --hover-text-color: rgba(255,255,255,0.93);
 }
 
 /* Reset content */
@@ -18,12 +21,13 @@ body, ul, li, a {
   padding: 0;
   list-style: none;
   text-decoration: none;
+  color: var(--primary-text-color);
 }
 
 /* Universal */
 body {
   background-color: var(--0-op);
-}
+}  
 
 /* Header */
 header {
@@ -36,7 +40,7 @@ header {
 .site-nav {
   display: flex;
   flex-direction: row;
-  width: 80vw;
+  width: 60vw;
   margin: auto;
 }
 
