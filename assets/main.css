@@ -31,8 +31,8 @@ body {
 
 /* Header */
 #header {
-  background-color: var(--7-op);
-  border-bottom: 1px solid var(--0-op);
+  background-color: var(--5-op);
+  border-bottom: 1px solid var(--11-op);
   line-height: 4rem;
   font-size: 1.5rem;
 }
