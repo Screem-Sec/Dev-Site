@@ -34,11 +34,12 @@ body {
   background-color: var(--7-op);
   border-bottom: 1px solid var(--0-op);
   line-height: 4rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .site-title {
   position: absolute;
+  left: 1rem;
 }
 
 .site-nav {
