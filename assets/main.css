@@ -30,7 +30,7 @@ body {
 }  
 
 /* Header */
-header {
+#header {
   background-color: var(--7-op);
   border-bottom: 1px solid var(--0-op);
   line-height: 4rem;
