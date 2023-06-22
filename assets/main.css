@@ -37,6 +37,10 @@ header {
   font-size: 1.2rem;
 }
 
+.site-title {
+  position: absolute;
+}
+
 .site-nav {
   display: flex;
   flex-direction: row;
