@@ -80,11 +80,10 @@ main {
   margin: auto;
   display: flex;
   flex-direction: row;
-  min-height: 100vh;
+  min-height: calc(100vh - 5.1vh);
 }
 
 .column {
-  min-height: 100vh;
   padding: 0.5rem 1rem;
 }
 
