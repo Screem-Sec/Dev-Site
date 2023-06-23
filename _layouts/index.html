@@ -1,6 +1,12 @@
 
   {% include header.html %}
-  <main>
-    {{ content }}
+  <main id="index-main">
+    <ul>
+      {% for post in site.posts %}
+        <li class="post-item">
+          <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
   </main>
 {% include footer.html %}
