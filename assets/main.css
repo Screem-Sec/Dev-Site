@@ -1,6 +1,7 @@
 /* Variables */
 :root {
   --0-op: rgba(18,18,18,1);
+  --00-op: rgba(255,255,255,0);
   --5-op: rgba(255,255,255,0.05);
   --7-op: rgba(255,255,255,0.07);
   --8-op: rgba(255,255,255,0.08);
@@ -27,6 +28,7 @@ body, ul, li, a {
 /* Universal */
 body {
   background-color: var(--0-op);
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }  
 
 /* Header */
@@ -39,7 +41,17 @@ body {
 
 .site-title {
   position: absolute;
-  left: 3rem;
+  left: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title a {
+  color: var(--16-op);
+  transition: all ease-in-out 0.2s;
+}
+
+.site-title a:hover{
+  color: #fff;
 }
 
 .site-nav {
@@ -52,4 +64,71 @@ body {
 
 .nav-menu {
 
+}
+
+.nav-menu li {
+  padding: 0 1rem;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Main */
+main {
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  min-height: 100vh;
+  padding: 0.5rem 1rem;
+}
+
+#col-1 {
+  flex-grow: 1;
+  border-right: 1px solid var(--11-op);
+}
+
+#col-2 {
+  flex-grow: 4;
+}
+
+footer {
+  border-top: 1px solid var(--11-op);
+  font-size: 0.9rem;
+  height: 8rem;
+}
+
+.footer-60 {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-column {
+  padding: 0 1rem;
+}
+
+#f-col-1 {
+  flex-grow: 1;
+  color: var(--16-op);
+  line-height: 8rem;
+}
+
+#f-col-2 {
+  flex-grow: 4;
+  padding: 1rem 0;
+}
+
+.footer-60 ul li a {
+  color: var(--16-op);
+  transition: all ease-in-out 0.2s;
+}
+
+.footer-60 ul li a:hover {
+  color: #fff;
 }
