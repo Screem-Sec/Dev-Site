@@ -80,7 +80,7 @@ main {
   margin: auto;
   display: flex;
   flex-direction: row;
-  min-height: calc(100vh - 5.1vh);
+  min-height: calc(100vh - 16vh);
 }
 
 .column {
