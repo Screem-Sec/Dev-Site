@@ -5,6 +5,7 @@
       {% for post in site.posts %}
         <li class="post-item">
           <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+          <div class="post-excerpt">{{ post.excerpt }}</div>
         </li>
       {% endfor %}
     </ul>
