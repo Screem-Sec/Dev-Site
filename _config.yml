@@ -2,6 +2,7 @@ title: Screem-Sec
 email: hello@screem-sec.com
 description: Cybersecurity reviews and write-ups blog.
 paginate: 5
+permalink: /blog/:title
 
 # Socials
 mastodon: https://infosec.exchange/@screem
