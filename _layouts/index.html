@@ -1,11 +1,11 @@
 
   {% include header.html %}
   <main id="index-main">
-    <ul>
+    <ul class="post-list">
       {% for post in site.posts %}
         <li class="post-item">
           <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
-          <div class="post-excerpt">{{ post.excerpt }} <a class="post-more" href="{{ post.url }}">Read more...</a></div>
+          <div class="post-excerpt">{{ post.excerpt }} . . . <small><a class="post-more" href="{{ post.url }}">Read more</a></small></div>
         </li>
       {% endfor %}
     </ul>
