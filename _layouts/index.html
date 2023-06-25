@@ -11,7 +11,7 @@
           <div class="post-footer">
             <div class="post-footer-left">
               <small>
-                Last Updated: 2023-06-25
+                Last Updated: {{ post.lastUpdated }}
               </small>
             </div>
             <div class="post-footer-center">
@@ -21,7 +21,7 @@
             </div>
             <div class="post-footer-right">
               <small>
-                Post ID: <a href="{{ post.url }}">{{ post.id }}</a>
+                Post ID: <a href="{{ post.url }}">{{ post.ident }}</a>
               </small>
             </div>
           </div>
