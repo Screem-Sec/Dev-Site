@@ -83,6 +83,49 @@ main {
   min-height: calc(100vh - 16vh);
 }
 
+#index-main {
+  justify-content: center;
+}
+
+#index-main ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-list:last-child {
+  margin-bottom: 2rem;
+}
+
+.post-item {
+  width: 80vw;
+  height: 30vh;
+  border: 1px solid var(--11-op);
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  background: var(--5-op);
+}
+
+.post-title {
+  border-bottom: 1px solid var(--11-op);
+  width: 80vw;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.post-excerpt {
+  padding: 1rem 2rem;
+}
+
+.post-more {
+  color: #6ea8fe;
+}
+
+.post-more:hover {
+  color: #8bb9fe;
+  text-decoration: underline;
+}
+
 .column {
   padding: 0.5rem 1rem;
 }
