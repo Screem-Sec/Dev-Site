@@ -103,6 +103,8 @@ main {
   border-radius: 0.5rem;
   margin-top: 2rem;
   background: var(--5-op);
+  display: flex;
+  flex-direction: column;
 }
 
 .post-title {
@@ -113,8 +115,13 @@ main {
   font-size: 1.2rem;
 }
 
+.post-title a:hover {
+  text-decoration: underline;
+}
+
 .post-excerpt {
   padding: 1rem 2rem;
+  flex-grow: 1;
 }
 
 .post-more {
@@ -124,6 +131,37 @@ main {
 .post-more:hover {
   color: #8bb9fe;
   text-decoration: underline;
+}
+
+.post-footer {
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid var(--11-op);
+  color: var(--16-op);
+  padding: 0.2rem 1rem;
+}
+
+.post-footer a {
+  color: var(--16-op);
+  transition: all ease-in-out 0.2s;
+}
+
+.post-footer a:hover {
+  color: #fff;
+}
+
+.post-footer-left {
+  flex-grow: 2;
+}
+
+.post-footer-center {
+  flex-grow: 8;
+  text-align: center;
+}
+
+.post-footer-right {
+  flex-grow: 0;
+  text-align: right;
 }
 
 .column {
