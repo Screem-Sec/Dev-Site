@@ -98,7 +98,6 @@ main {
 
 .post-item {
   width: 80vw;
-  height: 30vh;
   border: 1px solid var(--11-op);
   border-radius: 0.5rem;
   margin-top: 2rem;
