@@ -150,7 +150,7 @@ main {
 }
 
 .post-footer-left {
-  flex-grow: 0;
+  flex-grow: 2;
 }
 
 .post-footer-center {
