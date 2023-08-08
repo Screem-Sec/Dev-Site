@@ -92,6 +92,19 @@ main {
   flex-direction: column;
 }
 
+#post-main {
+  display: flex;
+  flex-direction: row;
+}
+
+#author-section {
+  flex-grow: 1;
+}
+
+#content-section {
+  flex-grow: 4;
+}
+
 .post-list:last-child {
   margin-bottom: 2rem;
 }

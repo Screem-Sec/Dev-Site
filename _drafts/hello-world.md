@@ -13,4 +13,3 @@ lastUpdated:
 
 - About me
 - Purpose of this site
-- Rating scale

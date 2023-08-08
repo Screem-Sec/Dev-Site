@@ -1,5 +1,12 @@
 {% include header.html %}
-  <main>
-    {{ content }}
+  <main id="post-main">
+    <section id="author-section">
+      <p><a href="{{ post.authorUrl }}">{{ post.author }}</a></p>
+      <p>{{ post.tags }}</p>
+      <p>{{ post.ident }}</p>
+    </section>
+    <section id="content-section">
+      {{ content }}
+    </section>
   </main>
 {% include footer.html %}
