@@ -1,6 +1,7 @@
 
   {% include header.html %}
   <main id="index-main">
+    <ul>
     {% for post in site.posts %}
       <li class="post-item">
           <div class="post-title">
@@ -26,5 +27,6 @@
           </div>
         </li>
     {% endfor %}
+    </ul>
   </main>
 {% include footer.html %}
