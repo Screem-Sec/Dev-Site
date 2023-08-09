@@ -39,41 +39,6 @@ body {
   font-size: 1.5rem;
 }
 
-.site-title {
-  position: absolute;
-  left: 2rem;
-  padding: 0 1rem;
-}
-
-.site-title a {
-  color: var(--16-op);
-  transition: all ease-in-out 0.2s;
-}
-
-.site-title a:hover{
-  color: #fff;
-}
-
-.site-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 60vw;
-  margin: auto;
-}
-
-.nav-menu {
-
-}
-
-.nav-menu li {
-  padding: 0 1rem;
-}
-
-.nav-menu a:hover {
-  text-decoration: underline;
-}
-
 /* Main */
 main {
   width: 90vw;
