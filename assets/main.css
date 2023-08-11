@@ -151,6 +151,8 @@ main {
   flex-grow: 4;
 }
 
+/* Footer */
+
 footer {
   border-top: 1px solid var(--11-op);
   font-size: 0.9rem;
