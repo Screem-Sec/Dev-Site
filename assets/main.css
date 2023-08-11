@@ -60,14 +60,11 @@ main {
 #post-main {
   display: flex;
   flex-direction: row;
-}
-
-#author-section {
-  flex-grow: 1;
+  color: var(--primary-text-color);
 }
 
 #content-section {
-  flex-grow: 4;
+  padding-top: 2rem;
 }
 
 .post-list:last-child {
@@ -124,7 +121,7 @@ main {
 }
 
 .post-footer a:hover {
-  color: #fff;
+  color: var(--primary-text-color);
 }
 
 .post-footer-left {
